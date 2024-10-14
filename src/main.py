@@ -184,7 +184,7 @@ def main(args):
         related_data = list(set(related_data))[:6]
         data_raw['train'][key] = related_data + data_raw['train'][key]
 
-
+    #计算曼哈顿距离
     # {def adjust_vector_dimension(vec, target_dim):
     #        return np.pad(vec, (0, max(0, target_dim - len(vec))), mode='constant')[:target_dim]
 
