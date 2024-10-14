@@ -324,8 +324,7 @@ class Diffu_xstart(nn.Module):
 
         ## rep_diffu = self.att(rep_item, mask_seq)  ## do not use
         ## rep_diffu = self.dropout(self.norm_diffu_rep(rep_diffu))  ## do not use
-        
-        ####
+
         
         #### GRU
         # output, hn = self.gru_model(rep_item + lambda_uncertainty * x_t.unsqueeze(1))
